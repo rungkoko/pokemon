@@ -1,0 +1,99 @@
+.product-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  margin-bottom: 120px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-container img {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-container h2 {
+  margin-bottom: 10px;
+}
+
+.types-container {
+  margin-bottom: 10px;
+}
+
+.abilities {
+  margin-bottom: 10px;
+}
+
+.quality-control {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.quality-label {
+  margin-right: 20px;
+}
+
+.quality-buttons {
+  display: flex;
+  align-items: center;
+  border: 1px solid #373737;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 35px;
+}
+
+.quality-button {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.quality-value {
+  display: inline-block;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  text-align: center;
+  min-width: 40px;
+}
+
+.add-to-pocket-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #FF6F61;
+  color: #FAFAFA;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 254px;
+  height: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-pocket-button svg {
+  margin-right: 8px;
+  width: 20px;
+  height: 20px;
+}
+
+.add-to-pocket-button:hover {
+  background-color: #ffb300;
+}
+
+.back-button {
+  color: #373737;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 20px;
+}

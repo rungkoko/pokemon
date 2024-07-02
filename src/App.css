@@ -1,0 +1,50 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+
+.no-results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 50rem;
+  margin-top: -10rem;
+  grid-column: 1 / -62;
+}
+
+
+/* แก้ไขเพื่อให้แน่ใจว่าขนาดของ body ครอบคลุมทั้งหน้าจอ */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* ให้ความสูงของคอนเทนเนอร์ครอบคลุมทั้งหน้าจอ */
+}
+
+.main-content {
+  flex: 1; /* ทำให้ .main-content ขยายเพื่อใช้พื้นที่ว่างทั้งหมดที่เหลือ */
+}
+
+/* ตรวจสอบว่า footer มีขนาดที่เหมาะสม */
+.footer {
+  background-color: #f0f0f0; /* สีเทาอ่อน */
+  padding: 20px; /* เพิ่มพื้นที่ภายในของ footer */
+  text-align: center;
+  border-top: 1px solid #ddd; /* ขอบเส้นบางๆ ที่ด้านบน */
+  width: 100%; /* ให้ footer ขยายเต็มความกว้างของหน้าจอ */
+  min-height: 100px; /* ความสูงขั้นต่ำของ footer */
+  box-sizing: border-box; /* รวม padding และ border ในความสูงและความกว้าง */
+}

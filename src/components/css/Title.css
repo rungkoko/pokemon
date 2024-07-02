@@ -1,0 +1,39 @@
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 160px;
+}
+
+.view-buttons {
+  display: flex;
+  gap: 0rem;
+}
+
+.view-buttons button {
+  padding: 0.5rem 0.8rem;
+  border: none;
+  border-radius: 7px;
+  background-color: #FAFAFA;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.view-buttons button.active {
+  outline: none;
+  background-color: #FFCB05;
+  color: #333;
+}
+
+.result-count {
+  font-size: 1rem;
+  color: #333;
+}

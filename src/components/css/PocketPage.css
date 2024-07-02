@@ -1,0 +1,221 @@
+/* src/components/css/PocketPage.css */
+
+.pocket-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  min-height: 10vh;
+}
+
+.pocket-page-wrapper h2 {
+  margin-bottom: 0px;
+  color: #333;
+  font-size: 24px;
+}
+
+.pocket-list-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 10px;
+}
+
+.pocket-list-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.pocket-list-row-count {
+  font-size: 16px;
+  color: #777;
+}
+
+.pocket-list-headers {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.pocket-list-productname {
+  flex: 2;
+}
+
+.pocket-list-quantity {
+  flex: 1;
+  text-align: center;
+}
+
+.pocket-items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  max-width: 100%;
+}
+
+.pocket-item-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  width: 100%;
+  min-width: 850px;
+  transition: none;
+}
+
+.pocket-item-info {
+  display: flex;
+  align-items: center;
+  flex: 2;
+}
+
+.pocket-item-info img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.pokemon-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.types-container {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.type-name-pokemon {
+  background-color: #eee;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.quantity-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 210px;
+}
+
+.remove-pocket-button {
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.pocket-page-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 80px;
+  align-items: start;
+  margin-top: 60px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  min-height: 10vh;
+}
+
+.pocket-summary {
+  background-color: #FAFAFA;
+  padding: 0;
+  margin-top: 100px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pocket-summary h3 {
+  margin: 0;
+  padding: 10px;
+  background-color: #FFF9E3;
+  color: #373737;
+  font-size: 20px;
+  border-radius: 8px 8px 0 0;
+}
+
+.pocket-summary-content {
+  padding: 20px;
+}
+
+.pocket-summary p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.pocket-summary .total-quantity {
+  font-weight: bold;
+}
+
+.pocket-item-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  width: 100%;
+  min-width: 800px;
+  margin-bottom: 10px;
+}
+
+.pocket-item-card:hover {
+  transform: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.checkout-button {
+  padding: 12px 40px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #FAFAFA;
+  background-color: #FF6F61;
+  border: none; 
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.pocket-summary p {
+  margin: 10px 0;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subtotal, .total-quantity {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subtotal .value, .total-quantity .value {
+  margin-left: 30px;
+}
+
+.subtotal .label, .total-quantity .label {
+  text-align: left;
+}
+
