@@ -47,7 +47,7 @@ const Header = ({ search, handleSearch, clearSearch, pocketCount }) => {
       </div>
       <nav className="navbar">
         <img
-          src="https://e7.pngegg.com/pngimages/906/122/png-clipart-pokemon-logo-pokemon-logo-thumbnail.png"
+          src="https://e7.pngegg.com/pngimages/906/122/png-clipart-pokemon-logo-pokemon-logo-thumbnail.pn"
           alt="Pokémon Logo"
           className="logo"
           onClick={() => navigate('/pokemon/')}
